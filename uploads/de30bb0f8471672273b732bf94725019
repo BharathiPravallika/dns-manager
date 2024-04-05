@@ -1,0 +1,75 @@
+type,name,value,ttl
+A,example1.com,192.0.2.1,3600
+A,example2.com,192.0.2.2,3600
+A,example3.com,192.0.2.3,3600
+A,example4.com,192.0.2.4,3600
+A,example5.com,192.0.2.5,3600
+A,example6.com,192.0.2.6,3600
+A,example7.com,192.0.2.7,3600
+A,example8.com,192.0.2.8,3600
+A,example9.com,192.0.2.9,3600
+A,example10.com,192.0.2.10,3600
+A,example11.com,192.0.2.11,3600
+A,example12.com,192.0.2.12,3600
+A,example13.com,192.0.2.13,3600
+A,example14.com,192.0.2.14,3600
+A,example15.com,192.0.2.15,3600
+A,example16.com,192.0.2.16,3600
+A,example17.com,192.0.2.17,3600
+A,example18.com,192.0.2.18,3600
+A,example19.com,192.0.2.19,3600
+A,example20.com,192.0.2.20,3600
+MX,mail.example.com,10 mail.example.com,3600
+NS,example.com,ns1.example.com,3600
+TXT,example.com,"""v=spf1 mx a -all""",3600
+A,www.example.com,192.0.2.21,3600
+AAAA,ipv6.example.com,2001:0db8:85a3:0000:0000:8a2e:0370:7334,3600
+CNAME,mail.example.com,example.com,3600
+SRV,_sip._tcp.example.com,10 60 5060 sipserver.example.com,3600
+PTR,21.2.0.192.in-addr.arpa,www.example.com,3600
+SOA,example.com,ns1.example.com hostmaster.example.com 2022040201 86400 7200 3600000 3600,3600
+A,mail.example.com,192.168.1.1,3600
+AAAA,ipv6.example.com,2001:0db8:85a3:0000:0000:8a2e:0370:7335,3600
+CNAME,www.example.net,example.net,3600
+MX,example.org,10 mail.example.org,3600
+NS,example.org,ns1.example.org,3600
+TXT,example.org,"""v=spf1 mx a -all""",3600
+SRV,_sip._tcp.example.org,10 60 5060 sipserver.example.org,3600
+PTR,1.1.168.192.in-addr.arpa,mail.example.com,3600
+SOA,example.org,ns1.example.org hostmaster.example.org 2022040301 86400 7200 3600000 3600,3600
+A,ftp.example.com,192.0.2.10,3600
+AAAA,ipv6.example.com,2001:0db8:85a3:0000:0000:8a2e:0370:7335,3600
+CNAME,www.example.net,example.net,3600
+MX,example.org,10 mail.example.org,3600
+NS,example.org,ns1.example.org,3600
+TXT,example.org,"""v=spf1 mx a -all""",3600
+SRV,_sip._tcp.example.org,10 60 5060 sipserver.example.org,3600
+PTR,1.1.168.192.in-addr.arpa,mail.example.com,3600
+SOA,example.org,ns1.example.org hostmaster.example.org 2022040301 86400 7200 3600000 3600,3600
+A,vpn.example.com,198.51.100.2,3600
+AAAA,ipv6-vpn.example.com,2001:0db8:85a3:0000:0000:8a2e:0370:7336,3600
+CNAME,www2.example.net,example.net,3600
+MX,example.com,10 mail.example.com,3600
+NS,example.com,ns1.example.com,3600
+TXT,example.com,"""v=spf1 mx a -all""",3600
+SRV,_sip._tcp.example.com,10 60 5060 sipserver.example.com,3600
+PTR,2.100.51.198.in-addr.arpa,vpn.example.com,3600
+SOA,example.com,ns1.example.com hostmaster.example.com 2022040301 86400 7200 3600000 3600,3600
+A,mail.example.net,203.0.113.10,3600
+AAAA,ipv6-mail.example.net,2001:0db8:85a3:0000:0000:8a2e:0370:7337,3600
+CNAME,docs.example.org,example.org,3600
+MX,example.net,10 mail.example.net,3600
+NS,example.net,ns1.example.net,3600
+TXT,example.net,"""v=spf1 mx a -all""",3600
+SRV,_sip._tcp.example.net,10 60 5060 sipserver.example.net,3600
+PTR,3.113.0.203.in-addr.arpa,mail.example.net,3600
+SOA,example.net,ns1.example.net hostmaster.example.net 2022040301 86400 7200 3600000 3600,3600
+A,admin.example.com,198.51.100.3,3600
+AAAA,ipv6-admin.example.com,2001:0db8:85a3:0000:0000:8a2e:0370:7338,3600
+CNAME,www3.example.net,example.net,3600
+MX,example.org,10 mail.example.org,3600
+NS,example.org,ns1.example.org,3600
+TXT,example.org,"""v=spf1 mx a -all""",3600
+SRV,_sip._tcp.example.org,10 60 5060 sipserver.example.org,3600
+PTR,4.100.51.198.in-addr.arpa,admin.example.com,3600
+SOA,example.org,ns1.example.org hostmaster.example.org 2022040301 86400 7200 3600000 3600,3600
